@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Number Conversion System</title>
+<link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Number Conversion System</h2>
+    <a href="https://www.facebook.com/mansyanitas" target="_blank">
+        <h3>Developer: Ashton N. Ruiz</h3>
+    </a>
+
+    <div class="wrapper">
+        <label for="number">Enter a number:</label>
+        <input type="text" id="number" />
+    </div>
+
+    <div class="input-wrapper">
+        <label for="from">From:</label>
+    <select id="from">
+        <option value="decimal">Decimal</option>
+        <option value="binary"5>Binary</option>
+        <option value="octal">Octal</option>
+        <option value="hexadecimal">Hexadecimal</option>
+    </select>
+    
+    <label for="to">To:</label>
+    <select id="to">
+        <option value="decimal">Decimal</option>
+        <option value="binary">Binary</option>
+        <option value="octal">Octal</option>
+        <option value="hexadecimal">Hexadecimal</option>
+    </select>
+    
+     <button onclick="convert()">Convert</button> 
+    
+    </div>
+    
+    <div class="result">
+        <label for="result">Result:</label>
+        <div id="result" class="result"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
